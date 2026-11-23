@@ -1,0 +1,985 @@
+
+  Current Notification Manager state:
+    Notification List:
+>     NotificationRecord(0x097a2756: pkg=com.jeffson.shiftdisplay user=UserHandle{0} id=2901 tag=null importance=2
+key=0|com.jeffson.shiftdisplay|2901|null|10683 bbbc=0: Notification(channel=shift_display_media shortcut=null
+contentView=null vibrate=null sound=null defaults=0
+flags=ONGOING_EVENT|ONLY_ALERT_ONCE|NO_CLEAR|FOREGROUND_SERVICE|NO_DISMISS color=0x00000000 category=transport
+vis=PUBLIC focusType=null))
+        uid=10683 userId=0
+>       opPkg=com.jeffson.shiftdisplay
+>       icon=Icon(typ=RESOURCE pkg=com.jeffson.shiftdisplay id=0x7f080000)
+        flags=ONGOING_EVENT|ONLY_ALERT_ONCE|NO_CLEAR|FOREGROUND_SERVICE|NO_DISMISS
+        originalFlags=ONGOING_EVENT|ONLY_ALERT_ONCE|NO_CLEAR|FOREGROUND_SERVICE|NO_DISMISS
+        pri=0
+>       key=0|com.jeffson.shiftdisplay|2901|null|10683
+        seen=false
+>       groupKey=0|com.jeffson.shiftdisplay|2901|null|10683
+        notification=
+              fullscreenIntent=null
+>             contentIntent=PendingIntent{38323d7: PendingIntentRecord{40eb222 com.jeffson.shiftdisplay startActivity
+(allowlist: 4e875d8:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}}
+              deleteIntent=null
+              number=0
+              groupAlertBehavior=0
+              when=1795473028780/1795473028780
+              tickerText=null
+              vis=1
+              contentView=null
+              bigContentView=null
+              headsUpContentView=null
+              color=0x00000000
+              timeout=PT72H
+              extras={
+                  android.title=String (Desconectado)
+                  android.reduced.images=Boolean (true)
+>                 android.template=String (android.app.Notification$MediaStyle)
+>                 android.text=String (Shift Display ÔÇó Wheeltop EDS OX 2.0)
+>                 android.appInfo=ApplicationInfo (ApplicationInfo{30bf4c4 com.jeffson.shiftdisplay})
+                  android.showWhen=Boolean (false)
+                  android.mediaSession=Token (android.media.session.MediaSession$Token@4482d52)
+              }
+        publicNotification=
+              None
+        stats=SingleNotificationStats{posttimeElapsedMs=168261335, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1,
+airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0,
+posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedStartElapsedMs=-1, requestedImportance=3,
+naturalImportance=2, isNoisy=true}
+        mContactAffinity=0.0
+        mRecentlyIntrusive=false
+        mPackagePriority=0
+        mPackageVisibility=-1000
+        mSystemImportance=UNSPECIFIED
+        mAsstImportance=UNSPECIFIED
+        mShowBadge=false
+        mColorized=false
+        mAllowBubble=false
+        isBubble=false
+        mIsInterruptive=false
+>       effectiveNotificationChannel=NotificationChannel{mId='shift_display_media', mName=Shift Display,
+mDescription=hasDescription , mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000,
+mSound=content://settings/system/notification_sound, mLights=false, mLightColor=0, mVibrationPattern=null,
+mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=true, mVibrationEnabled=false, mShowBadge=false,
+mDeleted=false, mDeletedTimeMs=-1, mGroup='null', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION
+content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1,
+mImportanceLockedDefaultApp=false, mOriginalImp=2, mParent=null, mConversationId=null, mDemoted=false,
+mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+        mAdjustments=[]
+        shortcut=null found valid? false
+        mUserVisOverride=-1000
+        mLastAudiblyAlertedMs=-1
+        mBuzzBeepBlinkCode=0
+        hasSummarization=false
+      NotificationRecord(0x010962e2: pkg=com.xiaomi.aicr user=UserHandle{0} id=1 tag=null importance=3
+key=0|com.xiaomi.aicr|1|null|10160 bbbc=2: Notification(channel=aicr_service_notification shortcut=null
+contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|NO_CLEAR|FOREGROUND_SERVICE color=0x00000000
+groupKey=aicr_service_notification_autogroup vis=PRIVATE focusType=null))
+        uid=10160 userId=0
+        opPkg=com.xiaomi.aicr
+        icon=Icon(typ=RESOURCE pkg=com.xiaomi.aicr id=0x7f080183)
+        flags=ONGOING_EVENT|NO_CLEAR|FOREGROUND_SERVICE
+        originalFlags=ONGOING_EVENT|FOREGROUND_SERVICE
+              bigContentView=null
+              headsUpContentView=null
+              color=0x00000000
+              timeout=PT72H
+              extras={
+>                 android.title=String (Investiga├º├úo BLE do Shift Display (36))
+                  android.reduced.images=Boolean (true)
+                  android.subText=null
+                  android.template=String (android.app.Notification$BigTextStyle)
+                  android.showChronometer=Boolean (false)
+                  android.text=String (Encontrei uma pista importante, e ela ├® espec├¡fica do HyperOS, n├úo apenas do
+Android gen├®rico.
+
+  A pr├│pria documenta├º├úo oficial de desenvolvimento da Xiaomi, atualizada em novembro de 2025, informa quÔÇª)
+                  android.progress=Integer (0)
+                  androidx.core.app.extra.COMPAT_TEMPLATE=String (androidx.core.app.NotificationCompat$BigTextStyle)
+                  android.progressMax=Integer (0)
+                  android.appInfo=ApplicationInfo (ApplicationInfo{6d8b6cf com.openai.chatgpt})
+                  android.showWhen=Boolean (true)
+>                 android.largeIcon=null
+                  android.bigText=String (Encontrei uma pista importante, e ela ├® espec├¡fica do HyperOS, n├úo apenas
+do Android gen├®rico.
+
+  A pr├│pria documenta├º├úo oficial de desenvolvimento da Xiaomi, atualizada em novembro de 2025, informa quÔÇª)
+                  android.infoText=null
+                  com.openai.feature.notification.extra.POSTED_NOTIFICATION_ID=String
+(6b04bdd192bc8191b645aef1436c4ccc)
+                  android.progressIndeterminate=Boolean (false)
+                  android.remoteInputHistory=null
+                  android.shortCriticalText=null
+                  com.openai.feature.notification.extra.ACCOUNT_USER_ID=String
+(user-XzFzo97kksv668KKuBcPmNlA__54055fb7-4bda-460a-94b5-619527dabde6)
+              }
+        publicNotification=
+              None
+                  android.text=null
+                  android.progress=Integer (0)
+                  android.progressMax=Integer (0)
+                  android.appInfo=ApplicationInfo (ApplicationInfo{9144892 com.google.android.apps.maps})
+                  android.showWhen=Boolean (true)
+>                 android.largeIcon=null
+                  android.infoText=null
+                  android.progressIndeterminate=Boolean (false)
+                  android.remoteInputHistory=null
+                  android.shortCriticalText=null
+              }
+        publicNotification=
+              fullscreenIntent=null
+              contentIntent=null
+              deleteIntent=null
+              number=0
+              groupAlertBehavior=0
+              when=1795457655376/1795457655376
+                  android.text=String (1 nova notifica├º├úo)
+                  android.progress=Integer (0)
+                  android.progressMax=Integer (0)
+                  android.appInfo=ApplicationInfo (ApplicationInfo{eab9263 com.google.android.apps.maps})
+                  android.showWhen=Boolean (true)
+>                 android.largeIcon=null
+                  android.infoText=null
+                  android.progressIndeterminate=Boolean (false)
+                  android.remoteInputHistory=null
+                  android.shortCriticalText=null
+              }
+        stats=SingleNotificationStats{posttimeElapsedMs=152894004, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1,
+airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0,
+posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedStartElapsedMs=-1, requestedImportance=3,
+naturalImportance=2, isNoisy=false}
+        mContactAffinity=0.0
+        mRecentlyIntrusive=false
+        mPackagePriority=0
+        mPackageVisibility=-1000
+        mSystemImportance=UNSPECIFIED
+        mAsstImportance=UNSPECIFIED
+                  android.progressMax=Integer (0)
+                  chime.account_name_hash=Integer (-1461784018)
+                  android.appInfo=ApplicationInfo (ApplicationInfo{bd423d5 com.google.android.apps.maps})
+                  chime.thread_id=String
+(a:RIDDLER_QUESTIONS_WITH_CHIME_RENDERER_INCREASED_RATE_LIMIT:MAPS_FE_RIDDLER_NOTIFICATION_RESPONSE)
+                  android.showWhen=Boolean (true)
+>                 android.largeIcon=null
+                  android.bigText=String (Ajude outras pessoas respondendo perguntas.)
+                  android.infoText=null
+                  android.progressIndeterminate=Boolean (false)
+                  android.remoteInputHistory=null
+                  android.title.big=String (MIO TELECOM - TAVARES ┬À Conhece este lugar?)
+                  android.shortCriticalText=null
+              }
+        publicNotification=
+              None
+        stats=SingleNotificationStats{posttimeElapsedMs=152894015, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1,
+airtimeCount=23, airtimeMs=101493, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0,
+posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedStartElapsedMs=-1, requestedImportance=3,
+naturalImportance=2, isNoisy=false}
+        mContactAffinity=0.0
+        mRecentlyIntrusive=false
+          NotificationChannelGroup{mId='message_group', mName=Message Box, mDescription=, mBlocked=false,
+mChannels=[], mUserLockedFields=0}
+          NotificationChannelGroup{mId='upgrade_group', mName=Upgrade, mDescription=, mBlocked=false, mChannels=[],
+mUserLockedFields=0}
+        AppSettings: tv.maxplayer.android (10656)
+        AppSettings: com.motionone.afterfocus_pro (10497) importance=NONE userSet=false
+        AppSettings: com.xiaomi.continuity.sdkapp (10536)
+>       AppSettings: com.jeffson.shiftdisplay (10683) importance=NONE userSet=false
+>         NotificationChannel{mId='shift_display_media', mName=Shift Display, mDescription=hasDescription ,
+mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mSound=content://settings/system/notification_sound,
+mLights=false, mLightColor=0, mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0,
+mUserVisibleTaskShown=true, mVibrationEnabled=false, mShowBadge=false, mDeleted=false, mDeletedTimeMs=-1,
+mGroup='null', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION
+flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1, mImportanceLockedDefaultApp=false,
+mOriginalImp=2, mParent=null, mConversationId=null, mDemoted=false, mImportantConvo=false,
+mLastNotificationUpdateTimeMs=0}
+        AppSettings: vendor.qti.iwlan (10138)
+        AppSettings: com.microsoft.office.outlook (10463) importance=NONE userSet=false
+          Delegate: com.google.android.gms (10161) enabled=true
+          NotificationChannel{mId='v2.in_app_support', mName=Suporte no aplicativo, mDescription=, mImportance=4,
+mBypassDnd=false, mLockscreenVisibility=-1000, mSound=content://settings/system/notification_sound, mLights=false,
+mLightColor=0, mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1, mGroup='null',
+mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags=
+bundle=null, mBlockableSystem=false, mAllowBubbles=-1, mImportanceLockedDefaultApp=false, mOriginalImp=4,
+mParent=null, mConversationId=null, mDemoted=false, mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.EVENT_REMINDER:account_jeffson_s.nobre@outlook.com.br', mName=Lembretes de
+eventos, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000,
+mSound=android.resource://com.microsoft.office.outlook/raw/calendar_reminder, mLights=false, mLightColor=-16711936,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1,
+mGroup='account_jeffson_s.nobre@outlook.com.br', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION
+content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1,
+mImportanceLockedDefaultApp=false, mOriginalImp=3, mParent=null, mConversationId=null, mDemoted=false,
+mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.EVENT_REMINDER:account_jeffson_s.nobre@hotmail.com', mName=Lembretes de eventos,
+mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000,
+mSound=android.resource://com.microsoft.office.outlook/raw/calendar_reminder, mLights=false, mLightColor=-16711936,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1,
+mGroup='account_jeffson_s.nobre@hotmail.com', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION
+content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1,
+mImportanceLockedDefaultApp=false, mOriginalImp=3, mParent=null, mConversationId=null, mDemoted=false,
+mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.info', mName=Informa├º├Áes, mDescription=, mImportance=2, mBypassDnd=false,
+mLockscreenVisibility=-1000, mSound=content://settings/system/notification_sound, mLights=false, mLightColor=0,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1, mGroup='null',
+mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags=
+bundle=null, mBlockableSystem=false, mAllowBubbles=-1, mImportanceLockedDefaultApp=false, mOriginalImp=2,
+mParent=null, mConversationId=null, mDemoted=false, mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.downloads', mName=Downloads, mDescription=, mImportance=2, mBypassDnd=false,
+mLockscreenVisibility=-1000, mSound=content://settings/system/notification_sound, mLights=false, mLightColor=0,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1, mGroup='null',
+mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags=
+bundle=null, mBlockableSystem=false, mAllowBubbles=-1, mImportanceLockedDefaultApp=false, mOriginalImp=2,
+mParent=null, mConversationId=null, mDemoted=false, mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.MAIL:account_jeffson_s.nobre@outlook.com.br', mName=Email, mDescription=,
+mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000,
+mSound=android.resource://com.microsoft.office.outlook/raw/new_email, mLights=false, mLightColor=-16776961,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1,
+mGroup='account_jeffson_s.nobre@outlook.com.br', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION
+content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1,
+mImportanceLockedDefaultApp=false, mOriginalImp=3, mParent=null, mConversationId=null, mDemoted=false,
+mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannel{mId='v2.MAIL:account_jeffson_s.nobre@hotmail.com', mName=Email, mDescription=,
+mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000,
+mSound=android.resource://com.microsoft.office.outlook/raw/new_email, mLights=false, mLightColor=-16776961,
+mVibrationPattern=null, mVibrationEffect=null, mUserLockedFields=0, mUserVisibleTaskShown=false,
+mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1,
+mGroup='account_jeffson_s.nobre@hotmail.com', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION
+content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null, mBlockableSystem=false, mAllowBubbles=-1,
+mImportanceLockedDefaultApp=false, mOriginalImp=3, mParent=null, mConversationId=null, mDemoted=false,
+mImportantConvo=false, mLastNotificationUpdateTimeMs=0}
+          NotificationChannelGroup{mId='account_jeffson_s.nobre@hotmail.com', mName=Outlook ÔÇô
+jeffson_s.nobre@hotmail.com, mDescription=, mBlocked=false, mChannels=[], mUserLockedFields=0}
+          NotificationChannelGroup{mId='account_jeffson_s.nobre@outlook.com.br', mName=Outlook ÔÇô
+jeffson_s.nobre@outlook.com.br, mDescription=, mBlocked=false, mChannels=[], mUserLockedFields=0}
+      2026-11-23T19:12:49.148379 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+      2026-11-23T19:12:49.148407 - set_zen_mode: off,updated setting
+      2026-11-23T19:12:49.315715 - config: setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17 (ORIGIN_APP) no changes
+      2026-11-23T19:12:49.315916 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+      2026-11-23T19:12:49.315952 - set_zen_mode: off,updated setting
+>     2026-11-23T19:13:12.145205 - config: com.jeffson.shiftdisplay|removeAutomaticZenRules (ORIGIN_SYSTEM) no changes
+>     2026-11-23T19:13:12.145478 - set_zen_mode: off,com.jeffson.shiftdisplay|removeAutomaticZenRules
+      2026-11-23T19:13:12.145523 - set_zen_mode: off,updated setting
+      2026-11-23T19:13:49.183015 - config: setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17 (ORIGIN_APP) no changes
+      2026-11-23T19:13:49.183191 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+      2026-11-23T19:13:49.183223 - set_zen_mode: off,updated setting
+      2026-11-23T19:13:49.331139 - config: setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17 (ORIGIN_APP) no changes
+      2026-11-23T19:13:49.331502 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+      2026-11-23T19:13:49.331528 - set_zen_mode: off,updated setting
+      2026-11-23T19:16:03.511691 - config: setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17 (ORIGIN_APP) no changes
+      2026-11-23T19:16:03.511913 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+      2026-11-23T19:16:03.511958 - set_zen_mode: off,updated setting
+      2026-11-23T19:18:11.667472 - config: setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17 (ORIGIN_APP) no changes
+      2026-11-23T19:18:11.667616 - set_zen_mode: off,setAzrState: 8f5d2f1c9f894f86bee0150216a0fb17
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=1
+>       numWithLargeIcon=2
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=1
+        numWithText=1
+        numWithSubText=2
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=13
+>       numWithLargeIcon=13
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=13
+        numWithText=13
+        numWithSubText=13
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=1
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=15
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=10
+        numWithText=10
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=274
+        numUserInitiatedJob=0
+        numOngoing=269
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=8
+        numWithText=8
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=1
+>       numWithLargeIcon=6
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=6
+        numWithText=6
+        numWithSubText=0
+        numWithInfoText=5
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=8
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=42
+>       numWithLargeIcon=87
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=42
+        numWithText=42
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=45
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=9
+>       numWithLargeIcon=53
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=53
+        numWithText=53
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=59
+        numAlertViolations=0
+        numVibViolations=1
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=2
+        numForegroundService=6
+        numUserInitiatedJob=0
+        numOngoing=6
+        numAutoCancel=19
+>       numWithLargeIcon=26
+        numWithInbox=1
+        numWithMediaSession=0
+        numWithTitle=25
+        numWithText=21
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=1
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=52
+>       numWithLargeIcon=52
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=52
+        numWithText=52
+        numWithSubText=52
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=5
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=9
+        numUserInitiatedJob=9
+        numOngoing=9
+        numAutoCancel=8
+>       numWithLargeIcon=208
+        numWithInbox=26
+        numWithMediaSession=0
+        numWithTitle=203
+        numWithText=203
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=4
+        numVibViolations=12
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=12
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=7
+>       numWithLargeIcon=12
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=12
+        numWithText=12
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=1
+        numVibViolations=1
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=1
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=10
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=10
+        numWithText=10
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=18
+        numForegroundService=588
+        numUserInitiatedJob=9
+        numOngoing=616
+        numAutoCancel=228
+>       numWithLargeIcon=639
+        numWithInbox=27
+        numWithMediaSession=159
+        numWithTitle=771
+        numWithText=734
+        numWithSubText=149
+        numWithInfoText=5
+        numRateViolations=61
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=2
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=3
+>       numWithLargeIcon=2
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=3
+        numWithText=3
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=2
+        numUserInitiatedJob=0
+        numOngoing=2
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=2
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=14
+        numAutoCancel=0
+>       numWithLargeIcon=14
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=14
+        numWithText=14
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=1
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=1
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=1
+        numWithText=1
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=4
+        numUserInitiatedJob=0
+        numOngoing=4
+        numAutoCancel=0
+>       numWithLargeIcon=3
+        numWithInbox=0
+        numWithMediaSession=4
+        numWithTitle=4
+        numWithText=4
+        numWithSubText=4
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=7
+>       numWithLargeIcon=6
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=6
+        numWithText=6
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=40
+        numUserInitiatedJob=0
+        numOngoing=40
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=7
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=7
+        numWithText=7
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=1
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=1
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=1
+        numWithText=1
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=0
+        numWithText=0
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        note_imp_quiet_: [0, 0, 0, 0, 0, 0]
+        note_importance_: [0, 0, 0, 0, 0, 0]
+        numUndecorateRVs=0
+      }
+      AggregatedStats{
+>       key='com.jeffson.shiftdisplay',
+        numEnqueuedByApp=117,
+        numPostedByApp=18,
+        numUpdatedByApp=99,
+        numRemovedByApp=16,
+        numPeopleCacheHit=125,
+        numWithStaredPeople=0,
+        numWithValidPeople=0,
+        numPeopleCacheMiss=0,
+        numBlocked=0,
+        numSuspendedByAdmin=0,
+        numWithActions=0,
+        numPrivate=0,
+        numWithBigPicture=0
+        numForegroundService=117
+        numUserInitiatedJob=0
+        numOngoing=117
+        numAutoCancel=0
+>       numWithLargeIcon=0
+        numWithInbox=0
+        numWithMediaSession=117
+        numWithTitle=117
+        numWithText=117
+        numWithSubText=12
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+        numWithBigPicture=0
+        numForegroundService=0
+        numUserInitiatedJob=0
+        numOngoing=0
+        numAutoCancel=4
+>       numWithLargeIcon=4
+        numWithInbox=0
+        numWithMediaSession=0
+        numWithTitle=4
+        numWithText=4
+        numWithSubText=0
+        numWithInfoText=0
+        numRateViolations=0
+        numAlertViolations=0
+        numVibViolations=0
+        numQuotaViolations=0
+        numImagesRemoved=0
+        numTooOld=0
+      }
+      mStatsArrays.size(): 1
+      mStats.size(): 37
+
+    TimeToLive alarms:
+>     mKeys [Pair{259257005 0|com.miui.securitycenter|20006|null|1000}, Pair{259257700
+0|com.xiaomi.mirror|10|null|1000}, Pair{259260597 0|com.xiaomi.mi_connect_service|2|null|1000}, Pair{335326390
+0|com.miui.misound|887|null|10213}, Pair{412093795
+0|com.google.android.apps.maps|0|-1461784018::SUMMARY::207485373|10217}, Pair{412093802 0|com.google.android.apps.maps|
+0|-1461784018::a:RIDDLER_QUESTIONS_WITH_CHIME_RENDERER_INCREASED_RATE_LIMIT:MAPS_FE_RIDDLER_NOTIFICATION_RESPONSE|10217
+}, Pair{424050463 0|com.miui.misound|999|null|10213}, Pair{427380969 -1|android|32|null|1000}, Pair{427380970
+-1|android|26|null|1000}, Pair{427381582 0|com.openai.chatgpt|595233003|6b04bba1-f38c-83e9-9795-2f6a84285480|10436},
+Pair{427432894 0|com.xiaomi.aicr|1|null|10160}, Pair{427467195 0|com.jeffson.shiftdisplay|2901|null|10683}]
+
+    GroupHelper:
+      Ungrouped notifications:
+          0|com.xiaomi.mirror|g:Aggregate_SilentSection
+              0|com.xiaomi.mirror|10|null|1000
+          0|com.xiaomi.aicr|g:Aggregate_AlertingSection
+              0|com.xiaomi.aicr|1|null|10160
+          0|com.xiaomi.mi_connect_service|g:Aggregate_SilentSection
+              0|com.xiaomi.mi_connect_service|2|null|1000
+          0|com.openai.chatgpt|g:Aggregate_AlertingSection
+              0|com.openai.chatgpt|595233003|6b04bba1-f38c-83e9-9795-2f6a84285480|10436
+
